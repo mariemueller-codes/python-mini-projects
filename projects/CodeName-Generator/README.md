@@ -1,7 +1,7 @@
 # codeNameGenerator.py
 
 This is to demonstrate basic Python skills such as printing, commenting, variables and  basic string manipulation.
-<!-- ![MVP](https://github.com/mariemueller-codes/FullStackNanoDegree_Udacity/blob/master/AnimalCards/assets/trading-card-prototype.PNG) -->
+![codename-generator](https://github.com/mariemueller-codes/python-mini-projects/blob/main/assets/CodeNameGenerator.gif)
 
 ## Prerequisites
 

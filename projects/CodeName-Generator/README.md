@@ -1,4 +1,4 @@
-# codeNameGenerator.py
+# codeNameGenerator
 
 This is to demonstrate basic Python skills such as printing, commenting, variables and  basic string manipulation.
 ![codename-generator](https://github.com/mariemueller-codes/python-mini-projects/blob/main/assets/CodeNameGenerator.gif)

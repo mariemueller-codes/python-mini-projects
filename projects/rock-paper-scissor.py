@@ -1,4 +1,6 @@
 # Make a rock, paper, scissors game
+import random
+
 rock = '''
     _______
 ---'   ____)
@@ -26,10 +28,11 @@ scissors = '''
 ---.__(___)
 '''
 
-import random
+
 choices = ['rock', 'paper', 'scissors']
 guess = input("Choose rock, paper or scissors: ").lower()
-computer_choice = choices[random.randint(0,2)]
+computer_choice = choices[random.randint(0, 2)]
+
 
 def print_image(item):
     if item == 'rock':
@@ -38,6 +41,7 @@ def print_image(item):
         print(paper)
     elif item == 'scissors':
         print(scissors)
+
 
 print(f"\nYou choose: {(guess)}")
 print_image(guess)

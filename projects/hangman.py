@@ -26,4 +26,3 @@ for x in chosen_word:
         print("Correct")
     else:
         print("Wrong")
-

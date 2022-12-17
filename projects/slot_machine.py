@@ -140,6 +140,7 @@ def spin(balance):
     slots = get_slotmachine_spin(ROWS, COLUMNS, symbol_count)
     print_slotMachine(slots)
 
+    # TODO - Add conditional statement if user didn't win
     winnings, winning_lines = check_winnings(slots, lines, bet, symbol_value)
     print(f"You won {winnings}.")
     print(f"You won on lines: ", *winning_lines)
